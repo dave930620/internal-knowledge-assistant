@@ -1,0 +1,92 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What does kube-scheduler do?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_k8s_001_sec5_c0"]
+  },
+  {
+    "query_id": "q02",
+    "question": "What is etcd and how does it store cluster state?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_k8s_001_sec4_c0"]
+  },
+  {
+    "query_id": "q03",
+    "question": "What components run on every Kubernetes worker node?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_k8s_001_sec8_c0", "doc_k8s_002_sec4_c0", "doc_k8s_003_sec1_c0"]
+  },
+  {
+    "query_id": "q04",
+    "question": "What is the role of kubelet in Kubernetes?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_k8s_001_sec9_c0"]
+  },
+  {
+    "query_id": "q05",
+    "question": "How does Kubernetes track node resource capacity?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_k8s_003_sec10_c0"]
+  },
+  {
+    "query_id": "q06",
+    "question": "How do you troubleshoot a down or unreachable Kubernetes node?",
+    "category": "troubleshooting",
+    "relevant_chunk_ids": ["ops_mix_003_sec3_c0", "ops_mix_003_sec3_c1", "ops_mix_003_sec2_c0"]
+  },
+  {
+    "query_id": "q07",
+    "question": "What are common Kubernetes cluster failure modes?",
+    "category": "troubleshooting",
+    "relevant_chunk_ids": ["ops_mix_003_sec7_c0", "ops_mix_003_sec8_c0"]
+  },
+  {
+    "query_id": "q08",
+    "question": "How does Stripe comply with PCI security standards?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_stripe_002_sec3_c0", "doc_stripe_002_sec2_c0"]
+  },
+  {
+    "query_id": "q09",
+    "question": "How does Stripe enforce HTTPS and protect connections?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_stripe_002_sec11_c0"]
+  },
+  {
+    "query_id": "q10",
+    "question": "What payment options and methods does Stripe support?",
+    "category": "factual",
+    "relevant_chunk_ids": ["doc_stripe_001_sec2_c0", "doc_stripe_001_sec3_c0"]
+  },
+  {
+    "query_id": "q11",
+    "question": "Why did Cloudflare redesign Workers KV and what availability problems did the old design have?",
+    "category": "design_reasoning",
+    "relevant_chunk_ids": ["eng_cf_002_sec1_c0", "eng_cf_002_sec1_c1", "eng_cf_002_sec1_c2"]
+  },
+  {
+    "query_id": "q12",
+    "question": "What problem do Cloudflare Durable Objects solve for stateful serverless workloads?",
+    "category": "design_reasoning",
+    "relevant_chunk_ids": ["eng_cf_003_sec1_c0", "eng_cf_003_sec1_c1", "eng_cf_003_sec1_c2"]
+  },
+  {
+    "query_id": "q13",
+    "question": "How does Cloudflare build and run its own products on its global network?",
+    "category": "design_reasoning",
+    "relevant_chunk_ids": ["eng_cf_001_sec1_c0", "eng_cf_001_sec1_c1"]
+  },
+  {
+    "query_id": "q14",
+    "question": "How does AWS DevOps Agent investigate production incidents on EKS?",
+    "category": "troubleshooting",
+    "relevant_chunk_ids": ["eng_aws_002_sec18_c0", "eng_aws_002_sec19_c0", "eng_aws_002_sec20_c0"]
+  },
+  {
+    "query_id": "q15",
+    "question": "What is conversational observability and how is it architected on AWS?",
+    "category": "design_reasoning",
+    "relevant_chunk_ids": ["eng_aws_001_sec1_c0", "eng_aws_001_sec3_c0", "ops_mix_001_sec1_c0"]
+  }
+]

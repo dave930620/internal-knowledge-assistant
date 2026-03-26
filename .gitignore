@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# data (large files)
+data/raw/
+data/embeddings/
+data/processed/
+
+# model cache
+.cache/

@@ -1,0 +1,3 @@
+chunk_size: 512        # max tokens per chunk
+chunk_overlap: 64      # overlap tokens between consecutive chunks
+min_chunk_chars: 80    # discard chunks shorter than this (likely noise)

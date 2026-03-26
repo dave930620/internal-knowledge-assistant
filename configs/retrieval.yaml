@@ -1,0 +1,3 @@
+top_k: 10              # number of candidates retrieved from FAISS
+index_type: "FlatIP"   # FlatIP = exact inner-product search (cosine when vectors are normalized)
+embedding_dim: 384     # must match the embedding model output dimension
